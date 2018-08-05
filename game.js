@@ -1,6 +1,5 @@
 var gameTies = 0 , playerWins = 0 , computerWins = 0;
 
-
 var buttons = document.querySelectorAll("a.button");
 var playerResultBox = document.getElementById("playerWins");
 var computerResultBox = document.getElementById("computerWins");
@@ -16,7 +15,6 @@ buttons.forEach(function(element) {
             reset();
     })
 });
-console.log(buttons);
 
 function computerChoiceRandom() {
     var options = ["rock" , "paper" , "scissors"]; 
@@ -48,6 +46,7 @@ function play(player , computer) {
         return "You: Scisors , Computer: Paper. You Win!";
     }
 }
+
 function checkScores() {
     if(playerWins >= 5) {
         alert("You won , got score 5");
@@ -58,6 +57,7 @@ function checkScores() {
     }
     return false;
 }
+
 function reset() {
     result.innerHTML = "Play again! Choose one of Rock, Paper or Scissiors.";
     computerResultBox.innerHTML = 0;

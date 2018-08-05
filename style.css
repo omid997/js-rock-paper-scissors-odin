@@ -2,7 +2,6 @@ body {
     text-align: center;
     padding-top: 10px
 }
-
 #buttons , #scores {
     width: 930px;
     margin: 10% auto 0;
@@ -22,7 +21,6 @@ body {
     line-height: 148px;
     font-size: 22px;
     transition: all 0.3s ease;
-
 }
 .button:focus {
     background-color: blueviolet;
