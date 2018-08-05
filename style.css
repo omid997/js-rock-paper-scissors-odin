@@ -1,0 +1,43 @@
+body {
+}
+
+#buttons , #scores {
+    width: 930px;
+    margin: 10% auto 0;
+    position: relative;
+    text-align: center;
+}
+.button {
+    width: 150px;
+    height: 150px;
+    margin: 0 75px;
+    display: inline-block;
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 148px;
+    font-size: 22px;
+    transition: all 0.3s ease;
+
+}
+.button:focus {
+    background-color: blueviolet;
+}
+#result {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.score {
+    width: 150px;
+    height: 150px;
+    margin: 0 75px;
+    display: inline-block;
+    font-size: 20px
+}
+.score span {
+    font-weight: bold
+}
